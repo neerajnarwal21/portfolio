@@ -134,6 +134,10 @@ body {
 	padding-top: 20px;
 }
 
+.about-info{
+	padding-top:10px;
+}
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
