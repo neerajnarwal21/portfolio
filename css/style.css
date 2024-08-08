@@ -59,7 +59,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding-top: 0;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -75,7 +75,7 @@ body {
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url('../img/profile.jpg') no-repeat center center;
+    background: url('../img/Cover.jpeg') no-repeat center center;
     background-size: cover; /* Ensures the image covers the entire container */
     background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for better text visibility */
 }
@@ -88,7 +88,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent overlay */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
     z-index: 1; /* Ensure it is below the content */
 }
 
