@@ -138,6 +138,30 @@ body {
 	padding-top:10px;
 }
 
+.btn-circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2em;
+    transition: background-color 0.3s ease;
+}
+.btn-circle.linkedin { background-color: #0077b5; }
+.btn-circle.linkedin:hover { background-color: #005983; }
+
+.btn-circle.email { background-color: #d14836; }
+.btn-circle.email:hover { background-color: #a33e2c; }
+
+.btn-circle.phone { background-color: #34b7f1; }
+.btn-circle.phone:hover { background-color: #2b93c6; }
+
+.btn-circle.github { background-color: #333; }
+.btn-circle.github:hover { background-color: #24292e; }
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
