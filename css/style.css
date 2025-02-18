@@ -136,6 +136,7 @@ body {
 
 .about-info{
 	padding-top:10px;
+        overflow: hidden;  /* Hide overflowed content */
 }
 
 .btn-circle {
